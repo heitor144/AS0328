@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'roboto', sans-serif;
+    color: rgb(0, 136, 255);
+    background-color: rgb(252, 255, 248);
+    margin: 0;
+}
+
+header{
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(163, 34, 255);
+    padding: 17px;
+}
+
+.menu {
+    display: flex; /* Use flexbox para alinhar itens horizontalmente */
+    justify-content: space-around; /* Centraliza os itens horizontalmente */
+    list-style: none; /* Remove os marcadores de lista */
+}
+
+.link_menu {
+    color: #ffffff; /* Cor branca para os links */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
